@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+#One {
+    border-radius:100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    animation-name: myfirst;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-duration:2s;
+    animation-iteration-count:infinite; 
+    animation-direction:alternate;
+}
+
+ /*Standard syntax*/
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px; height:1px; width:1px;}
+    25%  {background-color:pink; left:200px; top:0px;}
+    50%  {background-color:purple; left:200px; top:200; width: 200px; height:200px;}
+    75%  {background-color:blue; left:0px; top:200px;}
+    100% {background-color:silver; left:0px; top:0px; height:1px; width:1px;}
+}
+
+#Two {
+    border-radius:100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    animation-name: NumberTwo;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-duration:2s;
+    animation-iteration-count:infinite; 
+    animation-direction:alternate;
+}
+
+/* Standard syntax */
+@keyframes NumberTwo {
+    0%   {background-color:red; left:0px; top:0px; height:1px; width:1px;}
+    25%  {background-color:pink; left:300px; top:0px;}
+    50%  {background-color:purple; left:300px; top:300px; width: 200px; height:200px;}
+    75%  {background-color:blue; left:0px; top:300px;}
+    100% {background-color:silver; left:0px; top:0px; height:1px; width:1px;}
+}
+
+
+
+#Three {
+    border-radius:100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    animation-name: Three;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-duration:2s;
+    animation-iteration-count:infinite; 
+    animation-direction:alternate;
+}
+
+ /*Standard syntax*/
+@keyframes Three {
+    0%   {background-color:red; right:0px; top:0px; height:1px; width:1px;}
+    25%  {background-color:pink; right:200px; top:0px;}
+    50%  {background-color:purple; right:200px; top:200; width: 200px; height:200px;}
+    75%  {background-color:blue; right:0px; top:200px;}
+    100% {background-color:silver; right:0px; top:0px; height:1px; width:1px;}
+}
+
+#Four {
+    border-radius:100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    animation-name: Four;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-duration:2s;
+    animation-iteration-count:infinite; 
+    animation-direction:alternate;
+}
+
+/* Standard syntax */
+@keyframes Four {
+    0%   {background-color:red; right:0px; top:0px; height:1px; width:1px;}
+    25%  {background-color:pink; right:300px; top:0px;}
+    50%  {background-color:purple; right:300px; top:300px; width: 200px; height:200px;}
+    75%  {background-color:blue; right:0px; top:300px;}
+    100% {background-color:silver; right:0px; top:0px; height:1px; width:1px;}
+}
+
+#Five {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation-name: Five;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-duration:2s;
+    animation-iteration-count:infinite; 
+    animation-direction:alternate;
+    margin: auto;
+}
+
+/* Standard syntax */
+@keyframes Five {
+    0%   {background-color:gold; left: 625px; bottom: 0px; height:200px; width:200px;}
+    100% {background-color:green; left: 625px; bottom: 500px; height:200px; width:200px;}
+}
+
+
+
+</style>
+</head>
+<body>
+<div id = "One"></div>
+<div id = "Two"></div>
+<div id = "Three"></div>
+<div id = "Four"></div>
+<div id = "Five"></div>
+</body>
+</html>
